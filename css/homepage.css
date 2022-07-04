@@ -1,0 +1,269 @@
+body {
+    background-image: url(../images/polygon-mountains-minimalist-r3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.gridwrapper {
+    background-image: url(../images/polygon-mountains-minimalist-r3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 4fr ;
+    background-color:white;
+    width: 100vw;
+    height: 100vh;
+}
+.logo {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    border-radius: 13px;
+
+    font-size: 2.9vw;
+    text-align: center; 
+
+
+}  
+.nameBox {
+    border: 0px solid black;
+    border-radius: 0px;
+    margin-bottom: 40px;
+}
+.name {
+    font-family: Poppins;
+    text-align: center;
+    max-height: fit-content;
+    line-height: 0px;
+    white-space: nowrap;
+
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+@keyframes opacityChange {
+    0% {opacity: 0%;}
+    100% {opacity: 0%;}
+}
+.tagline {
+    font-family: Archivo;
+    font-style: italic;
+    font-size: 1vw;
+    animation-delay: 0.5s, 0s;
+    animation-duration: 2s, 0.5s;
+    animation-name: slidein, opacityChange;
+    
+}
+.apps {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+} 
+.appbox {
+    border: 0px solid rgb(184, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.app1 {
+    border: 1px solid black;
+    border-radius: 13px;
+    width: 60px;
+    height: 60px;
+    border: 1px;
+    border-style: solid;
+    box-shadow: 3px 3px 3px 0 rgba(41, 41, 41, 0.521);
+    text-align: center;
+    position: relative;
+    animation-name: app1Animation;
+    animation-duration: 1s;
+}
+.app1:hover {
+    border: 1px solid black;
+    border-radius: 13px;
+    width: 65px;
+    height: 65px;
+    border: 1px;
+    border-style: solid;
+    box-shadow: 3px 3px 3px 0 rgba(41, 41, 41, 0.521);
+    text-align: center;
+    position: relative;
+    transition: 0.3s;
+}
+@keyframes app1Animation {
+    0% { width: 0px; height: 0px; background-color: rgba(255, 255, 255, 0); opacity: 10%; left: 0px; top: 0px;}
+    100% { width: 60px; height: 60px; background-color: rgba(255, 255, 255, 0); opacity: 100%; left: 0px; top: 0px;}
+  }
+  @keyframes app1Opacity {
+    0% { opacity: 0%; width: 0px; height: 0px}
+    100% { opacity: 0%; width: 60px; height: 60px}
+  }  
+  .app2 {
+    border: 1px solid black;
+    border-radius: 13px;
+    width: 60px;
+    height: 60px;
+    border: 1px;
+    border-style: solid;
+    box-shadow: 3px 3px 3px 0 rgba(41, 41, 41, 0.521);
+    text-align: center;
+    position: relative;
+    animation-name: app1Animation, app1Opacity;
+    animation-duration: 1s, 0.3s;
+    animation-delay: 0.3s, 0s;
+}
+.app2:hover {
+  border: 1px solid black;
+  border-radius: 13px;
+  width: 65px;
+  height: 65px;
+  border: 1px;
+  border-style: solid;
+  box-shadow: 3px 3px 3px 0 rgba(41, 41, 41, 0.521);
+  text-align: center;
+  position: relative;
+  transition: 0.3s;
+}
+
+  .app3 {
+    border: 1px solid black;
+    border-radius: 13px;
+    width: 60px;
+    height: 60px;
+    border: 1px;
+    border-style: solid;
+    box-shadow: 3px 3px 3px 0 rgba(41, 41, 41, 0.521);
+    text-align: center;
+    position: relative;
+    animation-name: app1Animation, app1Opacity;
+    animation-duration: 1s, 0.6s;
+    animation-delay: 0.6s, 0s;
+}
+.app3:hover {
+  border: 1px solid black;
+  border-radius: 13px;
+  width: 65px;
+  height: 65px;
+  border: 1px;
+  border-style: solid;
+  box-shadow: 3px 3px 3px 0 rgba(41, 41, 41, 0.521);
+  text-align: center;
+  position: relative;
+  transition: 0.3s;
+}
+
+.app4 {
+  border: 1px solid black;
+  border-radius: 13px;
+  width: 60px;
+  height: 60px;
+  border: 1px;
+  border-style: solid;
+  box-shadow: 3px 3px 3px 0 rgba(41, 41, 41, 0.521);
+  text-align: center;
+  position: relative;
+  animation-name: app1Animation, app1Opacity;
+  animation-duration: 1s, 0.9s;
+  animation-delay: 0.9s, 0s;
+}
+.app4:hover {
+  border: 1px solid black;
+  border-radius: 13px;
+  width: 65px;
+  height: 65px;
+  border: 1px;
+  border-style: solid;
+  box-shadow: 3px 3px 3px 0 rgba(41, 41, 41, 0.521);
+  text-align: center;
+  position: relative;
+  transition: 0.3s;
+}
+.app5 {
+  border: 1px solid black;
+  border-radius: 13px;
+  width: 60px;
+  height: 60px;
+  border: 1px;
+  border-style: solid;
+  box-shadow: 3px 3px 3px 0 rgba(41, 41, 41, 0.521);
+  text-align: center;
+  position: relative;
+  animation-name: app1Animation, app1Opacity;
+  animation-duration: 1s, 1.2s;
+  animation-delay: 1.2s, 0s;
+}
+.app5:hover {
+  border: 1px solid black;
+  border-radius: 13px;
+  width: 65px;
+  height: 65px;
+  border: 1px;
+  border-style: solid;
+  box-shadow: 3px 3px 3px 0 rgba(41, 41, 41, 0.521);
+  text-align: center;
+  position: relative;
+  transition: 0.3s;
+}
+.app6 {
+  border: 1px solid black;
+  border-radius: 13px;
+  width: 60px;
+  height: 60px;
+  border: 1px;
+  border-style: solid;
+  box-shadow: 3px 3px 3px 0 rgba(41, 41, 41, 0.521);
+  text-align: center;
+  position: relative;
+  animation-name: app1Animation, app1Opacity;
+  animation-duration: 1s, 1.5s;
+  animation-delay: 1.5s, 0s;
+}
+.app6:hover {
+  border: 1px solid black;
+  border-radius: 13px;
+  width: 65px;
+  height: 65px;
+  border: 1px;
+  border-style: solid;
+  box-shadow: 3px 3px 3px 0 rgba(41, 41, 41, 0.521);
+  text-align: center;
+  position: relative;
+  transition: 0.3s;
+}
+.appImg {
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.appText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: text1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    font-size: 0.7em;
+    font-family: Poppins;
+    font-style: normal;
+}
+@keyframes text1 {
+    0% { font-size: 0em; }
+    100% { font-size: 0.7em;}
+  }

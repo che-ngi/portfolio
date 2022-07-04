@@ -1,0 +1,42 @@
+body {
+    color: #3D4849;
+    background-color: #202020;
+}   
+p {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: white;
+    padding: 20px;
+    font-size: large;
+    font-family: 'League Spartan', sans-serif;
+}
+h1 {
+    color: rgb(223, 223, 223);
+    font-family: 'Shippori Antique B1', sans-serif;
+    letter-spacing: 0.18em;
+}
+a.button:link {
+    color: deepskyblue;
+    border: 1px solid deepskyblue;
+    background-color: #fff3fc;
+    padding: 10px;
+    position: relative; 
+    bottom: 19px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family:'Shippori Antique B1', sans-serif;
+}
+a.button:active {
+    color: darkcyan;
+}
+a.button:visited {
+    color: #fbff00;
+    border: 1px solid #fbff00;
+    background-color: #202020;
+}
+a.button:hover {
+    color: #ffd000;
+    border: 1px solid #ffd000;
+    background-color: #838383;
+}

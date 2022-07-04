@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'Raleway', sans-serif;
+    background-color: #7fcec9;
+    padding: 15px;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+    color: #f7e5a8;
+}
+body {
+    font-family: 'Brygada 1918', serif;
+    line-height: 25px;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    background-color: #7fcec9;
+    padding: 7px;
+    letter-spacing: 0.05em;
+    text-transform: lowercase;
+}
+a:link {
+    color: #56749e;
+    text-decoration: none;
+}
+a:visited {
+    color: #405e8a;
+}
+a:hover {
+    color: #f7e5a8;
+    text-decoration: underline;
+}
+a:active {
+    color: #7fcec9;
+}

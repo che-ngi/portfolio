@@ -1,0 +1,33 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #e7e6f7;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    background-color: #c6d2ed;
+    color: #827081;
+    padding: 20px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+}
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.6em;
+    font-family: "Courier New", Courier, monospace;
+}
+a:link {
+    color: purple;
+    text-decoration: none;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: pink;
+    text-decoration: underline;
+}
+a:active {
+    color: #660033;
+}
